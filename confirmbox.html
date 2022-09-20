@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>confirm Box</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function showBox () {
+			value = confirm("This is a confirm box");
+			if (value == true) {
+				document.write("Okay");
+			}
+			else {
+				document.write("Cancel");
+			}
+		}
+	</script>
+	<button onclick="showBox()">Submit</button>
+
+</body>
+</html>

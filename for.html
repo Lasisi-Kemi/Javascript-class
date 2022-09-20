@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>For loop</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//for continue
+		for (i = 0; i < 19; i++) {
+			if (i==9) {
+				continue;
+			}
+			document.write("loop number=" + i + "<br>");
+		}
+
+		var name = new Array("Kemi", "Ope", "Adufe");
+		for (i = 0; i < 19; i++) {
+			document.write("loop number=" + i + "<br>");
+			if (i==4) { //skipping and Ending iltration
+				break;
+			}
+		}
+
+		for(var i in name){
+			document.write("Student name is="+name[i]);
+			document.write("<br>")
+		}
+
+		//for continue
+		for (i = 0; i < 19; i++) {
+			if (i==9) {
+				continue;
+			}
+			document.write("loop number=" + i + "<br>");
+		}
+
+		/*For loop
+		Three component
+		Initialization
+		Condition check
+		Increment or Decrement
+		for(initialization;condition;inc/dec)
+		for (i = 0; i < 19; i++) {
+			document.write("loop number=" + i);
+			document.write("<br>" )
+		}
+		for(variable in array_name){
+
+		}
+		*/
+	</script>
+
+</body>
+</html>

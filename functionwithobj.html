@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object with function</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*function house (loc, col, num, own){
+			this.location = loc;
+			this.color = col;
+			this.number = num;
+			this.owner = own;
+
+		}
+		var obj_house = new house("Abeokuta", "blue and green");
+		document.write("Location is "+obj_house.location+"<br>");
+		document.write("The house color is "+obj_house.color+"<br>");
+		*/
+
+		function house (loc, col, num, own){
+			this.location = loc;
+			this.color = col;
+			this.number = num;
+			this.owner = own;
+
+		}
+		var obj_house = new house("Abeokuta", "blue and green", "23", "Lasisi Sam");
+		for (var i in obj_house) {
+			document.write(obj_house[i]+"<br>");
+		}
+	</script>
+
+</body>
+</html>
